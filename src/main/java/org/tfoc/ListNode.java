@@ -5,7 +5,7 @@ package org.tfoc;
  */
 public class ListNode {
 
-    int val;
+    Integer val;
     ListNode next;
 
     ListNode() {}
@@ -15,7 +15,7 @@ public class ListNode {
         this.val = val;
     }
 
-    ListNode(int val, ListNode next) {
+    ListNode(Integer val, ListNode next) {
 
         this.val = val;
         this.next = next;
